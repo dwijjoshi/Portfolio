@@ -27,13 +27,13 @@ const About = (props: Props) => {
         </p>
 
         <p className="text-[rgba(136,146,176,255)] text-left mt-3">
-          Fast forward to today, and I've build various full stack websites and
+          Fast forward to today, and I have build various full stack websites and
           my most frequent tech-stack used is{" "}
           <span className="text-[rgba(88,224,195,255)]"> MERN Stack.</span>
         </p>
 
         <p className="text-[rgba(136,146,176,255)] text-left mt-3">
-          I look forward to learn new technologies and I'm always open to face
+          I look forward to learn new technologies and I am always open to face
           new challanges and solve them with the tech knowledge that I have.
         </p>
       </div>
