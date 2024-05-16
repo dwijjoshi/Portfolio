@@ -11,12 +11,12 @@ const Skills = (props: Props) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 items-center mx-auto "
+      className="h-screen flex  relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 items-center mx-auto "
     >
-      <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl ">
+      <h3 className="absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl">
         Skills
       </h3>
-      <div className="grid grid-cols-3 sm:grid-cols-4 gap-5 w-[90%]  sm:w-auto">
+      <div className="grid grid-cols-3 sm:grid-cols-4 sm:pt-10 gap-5 sm:gap-x-20 sm:gap-y-10 w-[90%]  sm:w-auto ">
         <Skill
           img={`https://img.icons8.com/external-tal-revivo-color-tal-revivo/512/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png`}
           name={`React`}
@@ -33,6 +33,8 @@ const Skills = (props: Props) => {
           img={`https://img.icons8.com/color/512/nodejs.png`}
           name={`NodeJS`}
         />
+        <Skill img={`angular.png`} name={`Angular`} />
+        <Skill img={`nextjs.png`} name={`NextJS`} />
         <Skill
           img={`https://img.icons8.com/color/512/mongodb.png`}
           name={`MongoDB`}

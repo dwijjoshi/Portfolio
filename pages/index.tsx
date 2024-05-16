@@ -12,12 +12,13 @@ import ContactMe from "@/components/ContactMe";
 import ProjectsFinal from "@/components/ProjectsFinal";
 import ProjectsFinal2 from "@/components/ProjectsFinal2";
 import ProjectsFinal3 from "@/components/ProjectsFinal3";
+import Experience from "@/components/Experience";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="bg-[rgba(10,25,47,255)] h-screen snap-y snap-mandatory overflow-scroll z-0 overflow-y-scroll overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[rgba(88,224,195,255)] scrollbar-thin">
+    <div className="bg-[#0a192f] h-screen snap-y snap-mandatory overflow-scroll z-0 overflow-y-scroll overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[rgba(88,224,195,255)] scrollbar-thin">
       <Head>
         <title>Dwij Portfolio</title>
       </Head>
@@ -33,6 +34,9 @@ export default function Home() {
       </section>
 
       {/* Experience */}
+      <section id="experience" className="snap-start">
+        <Experience />
+      </section>
 
       {/* Skills */}
       <section id="skills" className="snap-start">

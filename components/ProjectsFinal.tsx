@@ -14,7 +14,7 @@ const ProjectsFinal = (props: Props) => {
 
       <div className="w-[90%] mt-10">
         <div className=" text-left bg-[#233550] p-2 rounded-xl">
-          <div className="pl-5 pt-5 space-y-2 sm:flex sm:items-center">
+          <div className="pl-5 pt-5 space-y-2 sm:flex sm:gap-x-4 sm:items-center">
             <div className="sm:space-y-4 space-y-2 sm:text-lg ">
               <h4 className="text-[rgba(88,224,195,255)]">Project 1</h4>
               <h3 className="text-white">EntreV</h3>
@@ -49,7 +49,7 @@ const ProjectsFinal = (props: Props) => {
             </div>
             <div className="flex  justify-center">
               <img
-                className="w-48 h-32 sm:w-[40rem] sm:h-[18rem] object-cover rounded-lg"
+                className="w-48 h-32 sm:w-[60rem] sm:h-[18rem] object-contain rounded-lg"
                 src="https://res.cloudinary.com/dbuueyplm/image/upload/v1674884464/avatars/2023-01-28_11_08_04_d1osv9.png"
                 alt=""
               />
