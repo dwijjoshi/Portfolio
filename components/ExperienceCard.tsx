@@ -12,14 +12,19 @@ function ExperienceCard(prop: any) {
           {prop.technologies &&
             prop.technologies.map((tech: string) => {
               return (
-                <img className="h-10 w-10 rounded-full" src={tech} alt="" />
+                <img
+                  key={tech}
+                  className="h-10 w-10 rounded-full"
+                  src={tech}
+                  alt=""
+                />
               );
             })}
         </div>
         <p className="uppercase py-3 text-gray-300">{prop.date}</p>
         <ul className="list-disc space-y-2 ml-5 text-lg">
           {prop.description.map((desc: any) => {
-            return <li>{desc}</li>;
+            return <li key={desc}>{desc}</li>;
           })}
         </ul>
       </div>
