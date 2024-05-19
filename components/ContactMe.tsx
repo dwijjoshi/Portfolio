@@ -29,16 +29,16 @@ const ContactMe = (props: Props) => {
       </h3>
       <div className="flex flex-col space-y-10 mt-5">
         <div className="space-y-10">
-          <div className="flex items-center space-x-5 justify-center">
+          <div className="flex items-center space-x-5 justify-center ">
             <EnvelopeIcon className="text-[rgba(88,224,195,255)] h-7 w-7 animate-pulse" />
             <p className="text-2xl text-white">dwijjoshi02@gmail.com</p>
           </div>
         </div>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 w-screen sm:w-fit mx-auto"
+          className="flex flex-col space-y-2 w-screen sm:w-fit mx-auto px-10"
         >
-          <div className="flex space-x-2">
+          <div className="flex flex-col space-y-2 md:space-y-0 md:space-x-2 md:flex-row">
             <input
               {...register("name")}
               className="contactInput"

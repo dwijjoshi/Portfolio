@@ -5,7 +5,7 @@ type Props = {};
 
 const ProjectsFinal3 = (props: Props) => {
   return (
-    <div className=" flex flex-col relative text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-start xl:space-y-0 items-center mx-auto sm:justify-center ">
+    <div className="pt-40 md:pt-0 flex flex-col relative text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-start xl:space-y-0 items-center mx-auto sm:justify-center ">
       <div className="w-[90%] mt-20 ">
         <div className=" text-left bg-[#233550] p-2 rounded-xl">
           <div className="pl-5 pt-5 space-y-2 sm:flex sm:items-center">

@@ -12,7 +12,7 @@ const ProjectsFinal = (props: Props) => {
         </h3>
       </div>
 
-      <div className="w-[90%] mt-10">
+      <div className="w-[90%] mt-28 md:mt-0">
         <div className=" text-left bg-[#233550] p-2 rounded-xl">
           <div className="pl-5 pt-5 space-y-2 sm:flex sm:gap-x-4 sm:items-center">
             <div className="sm:space-y-4 space-y-2 sm:text-lg ">

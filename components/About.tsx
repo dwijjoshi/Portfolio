@@ -11,7 +11,7 @@ const About = (props: Props) => {
           About
         </h3>
       </div>
-      <div className="flex flex-col md:flex-row items-center">
+      <div className="flex flex-col md:flex-row items-center px-10 md:px-0 mt-20 md:mt-0">
         <div className="mt-10  flex  flex-col items-center sm:items-start sm:text-xl flex-[1.5_2_0%] ">
           <p className="text-[rgba(136,146,176,255)] text-left">
             Hello, My name is{" "}

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function ExperienceCard(prop: any) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[600px] snap-center bg-[#27426b] px-10 py-5 opacity-60 hover:opacity-100 cursor-pointer transition-opacity duration-200 overflow-hidden text-gray-200 ">
+    <article className="flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[600px] snap-center bg-[#27426b] px-10 py-5 opacity-60 hover:opacity-100 cursor-pointer transition-opacity duration-200 overflow-hidden text-gray-200 ">
       {/* <motion.img className="pt-2 h-20 w-20" src={prop.logo} alt="" /> */}
       <div className="px-0 md:px-10 ">
         <h4 className="text-4xl font-light ">{prop.role}</h4>
