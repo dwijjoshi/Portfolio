@@ -5,6 +5,7 @@ import ExperienceCard from "./ExperienceCard";
 type Props = {};
 
 function Experience({}: Props) {
+  console.log("Experience");
   const pmcExperience = {
     logo: "https://pmccommerce.com/wp-content/uploads/2024/03/header-logo.svg",
     role: "Project Trainee",
